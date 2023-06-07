@@ -4,3 +4,4 @@ WHERE ci.id = cu.city_id AND cu.id = i.customer_id AND i.id = ii.invoice_id AND 
 GROUP BY ci.city_name, pr.product_name 
 ORDER BY tot DESC, ci.city_name, pr.product_name 
 
+code of questions:
